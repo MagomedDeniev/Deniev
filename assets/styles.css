@@ -1,0 +1,464 @@
+/* Global */
+
+* {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-decoration: unset;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: url('/assets/images/marble.jpg');
+}
+
+.container {
+    padding-left: 76px;
+}
+
+.main {
+    width: 1120px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: rgba(0,0,0,0.1) 0 1px 3px;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 50px;
+}
+
+/* Sidebar */
+
+#Sidebar {
+    height: 100%;
+    width: 76px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    user-select: none;
+}
+
+#Sidebar hr {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: unset;
+    border-right: unset;
+    border-left: unset;
+    margin: 0 8px 8px;
+}
+
+#Sidebar a {
+    padding: 8px 0;
+    font-weight: 600;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+#Sidebar a:hover {
+    color: #f1f1f1;
+    text-decoration: unset;
+}
+
+#Sidebar .dashbar-nav-icon {
+    width: 76px;
+    display: inline-block;
+    text-align: center;
+}
+
+#Sidebar #SidebarLogo {
+    background: linear-gradient(45deg, #09009f, #00ff95 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 36px;
+    color: #0b838a;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+
+/* Intro */
+
+.intro-image img {
+    width: 170px;
+    height: 170px;
+    border-radius: 180px;
+}
+
+.intro-image {
+    display: table;
+    margin: 0 auto;
+}
+
+.intro-name h1, .intro-name h3 {
+    text-align: center;
+    padding: unset;
+}
+
+h1.name {
+    color: #0b838a;
+    background: linear-gradient(45deg, #09009f, #00ff95 80%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-name {
+    padding: 30px 0 30px;
+}
+
+.intro-text {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.intro-text p {
+    padding-left: 24px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border-left: 4px solid #048e99;
+}
+
+/* Projects */
+
+.projects-desc {
+    margin-top: -30px;
+    padding-bottom: 30px !important;
+    color: #555;
+}
+.preview {
+    position: relative;
+}
+.project-git {
+    left: unset !important;
+    right: 15px;
+}
+.project-git a {
+    background-color: #828282 !important;
+}
+.project-git a:hover {
+    background-color: #989898 !important;
+}
+.project-demo {
+    position: absolute;
+    bottom: -15px;
+    left: 20px;
+}
+.project-demo a {
+    background-color: #ff7e30;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 4px 6px 5px;
+    font-size: 14px;
+}
+.project-demo a:hover {
+    background-color: #ff914f;
+}
+
+/* Cards */
+
+.cards {
+    display: flex;
+    width: 100%;
+}
+
+.cards .card {
+    width: 33%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+.cards .card:last-child {
+    margin: unset;
+}
+
+.cards p {
+    color: #888;
+    padding: 6px 0 2px;
+}
+
+.cards h3 {
+    padding: 6px 0 0;
+}
+
+.cards img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    display: block;
+}
+
+.cards span {
+    width: 100%;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 0 0 8px 8px;
+}
+
+.cards small {
+    font-weight: 600;
+}
+
+.card-content {
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.cards span {
+    background: #25a2a8 linear-gradient(45deg, #1782a4 0, #31bfab 100%);
+}
+.cards small {
+    color: #25a2a8;
+    background: #25a2a8 linear-gradient(45deg, #1782a4 0, #31bfab 100%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+
+.card.picka small {
+    color: #35b7df;
+    background: #35b7df linear-gradient(45deg, #4ccdee 0, #1080b7 100%);
+}
+.card.picka span {
+    background: #35b7df linear-gradient(45deg, #4ccdee 0, #1080b7 100%);
+}
+
+.card.feel small {
+    color: #e35aab;
+    background: linear-gradient(45deg, #e427e8 0, #dd5f54 100%);
+}
+.card.feel span {
+    background: #e35aab linear-gradient(45deg, #e427e8 0, #dd5f54 100%);
+}
+
+.card.studio small {
+    color: #282828;
+    background: #282828 linear-gradient(45deg, #3e3e3e 0, #1e1e1e 100%);
+}
+.card.studio span {
+    background: #282828 linear-gradient(45deg, #3e3e3e 0, #1e1e1e 100%);
+}
+
+/* Skills */
+
+.skills {
+    display: flex;
+    overflow: scroll;
+    user-select: none;
+    position: relative;
+    margin-bottom: -18px;
+}
+.skills:before, .skills:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 130px;
+    display: block;
+}
+.skills:before {
+    background: -moz-linear-gradient(left, rgb(255, 255, 255) 0%, rgba(255,255,255,0) 100%);
+}
+.skills:after {
+    background: -moz-linear-gradient(right, rgb(255, 255, 255) 0%, rgba(255,255,255,0) 100%);
+    right: 0;
+}
+.skills-list {
+    overflow: auto;
+    display: flex;
+    padding-bottom: 20px;
+}
+.skill {
+    display: table;
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-right: 30px;
+}
+.skill:first-child {
+    padding-left: 30px;
+}
+.skill:last-child {
+    padding-right: 30px;
+}
+.skill img {
+    border-radius: 200px;
+}
+.skill-img {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    border-radius: 200px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+    width: 1120px;
+    margin: 0 auto;
+    background: #fbfbfb;
+    padding: 50px 0;
+}
+#Feedback {
+    display: table;
+    margin: 0 auto;
+    font-size: 35px;
+}
+#Feedback a {
+    color: #484848;
+}
+#Feedback i {
+    padding: 0 10px;
+}
+footer h1.name {
+    padding: 10px;
+}
+#Feedback span {
+    display: block;
+    text-align: center;
+}
+.social {
+    user-select: none;
+}
+.email {
+    font-size: 18px;
+    margin-top: 8px;
+    color: #484848;
+}
+
+.anchor {
+    top: 20px;
+    position: relative;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1196px) {
+    .main, .header {
+        width: 100%;
+    }
+    .container {
+        padding: 0 10px;
+        margin-left: 76px;
+    }
+    footer {
+        width: 100%;
+    }
+    .cards h3 {
+        font-size: 17px;
+    }
+    .cards.education span {
+        font-size: 14px;
+    }
+    .header-menu {
+        display: none;
+    }
+    #SidebarLogo {
+        float: unset;
+        display: table;
+        margin: 0 auto;
+        padding: unset;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    h1 {
+        padding: 30px 0;
+    }
+    .content {
+        padding: 40px 12px;
+    }
+    .cards .card {
+        margin-right: 12px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .content {
+        padding: 84px 15px 40px;
+    }
+    .cards h3 {
+        font-size: 19px;
+    }
+    .cards.education span {
+        font-size: 16px;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .cards .card {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+    .intro-name h1 {
+        background: linear-gradient(45deg, #0f64ae, #1ad799 80%);
+    }
+    .container {
+        margin: unset;
+    }
+    .anchor {
+        top: -26px;
+    }
+
+    /* Sidebar */
+
+    #Sidebar {
+        width: 100%;
+        height: unset;
+        display: flex;
+        justify-content: space-around;
+    }
+    #Sidebar a {
+        width: unset !important;
+        float: left;
+    }
+    #Sidebar hr {
+        display: none;
+    }
+    #Sidebar a span {
+        width: unset !important;
+    }
+    #Sidebar #SidebarLogo {
+        padding: unset;
+        margin: unset;
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .intro {
+        width: 100%;
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+    .intro-image {
+        justify-content: center;
+    }
+    h1 {
+        text-align: center;
+    }
+
+}
