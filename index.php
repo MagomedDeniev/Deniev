@@ -38,11 +38,12 @@
 
                         <div class="intro-text">
                             <p>
-                                Ayant toujours été passionné par le domaine du numérique et ayant eu plusieurs expériences
-                                significatives en tant qu'intégrateur & designer web, j'ai voulu me perfectionner dans ce
-                                domaine en intégrant une formation de développeur web. Aujourd'hui, après avoir terminé
-                                avec succès ce cursus et acquis de nombreuses compétences, je suis à la recherche d'un
-                                emploi en tant que développeur web fullstack.
+                                Ayant toujours été passionné par le domaine du numérique et ayant eu plusieurs
+                                expériences significatives en tant qu'intégrateur & designer web, j'ai voulu
+                                me perfectionner dans ce domaine en intégrant une formation de développeur web.
+                                Aujourd'hui, après avoir terminé avec succès ce cursus et acquis de
+                                nombreuses compétences, je suis à la recherche d'un emploi à Nice
+                                en tant que développeur web fullstack.
                             </p>
                         </div>
 

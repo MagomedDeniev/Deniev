@@ -5,11 +5,11 @@
     <h1>Projets</h1>
 
     <div class="projects-desc" style="text-align: center; padding-bottom: 50px">
-
-        Tous les projets sont entièrement réalisés seuls, у compris le design. La page d'accueil du "Retouches chez Malika" c'est juste un site vitrine basique, mais le véritable outil est caché dans le backend,
-        où le propriétaire de l'atelier peut gérer les commandes. De plus, il as la possibilité de preparer les devis, les factures,
-        ou d'envoyer les reçus en sms au client, ou prevenir que la commande est prête, et ce n'est pas tout.
-
+        Tous les projets sont entièrement réalisés par mes propres soins, у compris le design.
+        La page d'accueil de "Retouches chez Malika" c'est juste un site vitrine basique,
+        mais le véritable outil est caché dans le backend, où le propriétaire de l'atelier peut gérer les commandes.
+        De plus, il a la possibilité de préparer les devis, les factures, ou d'envoyer les reçus par sms au client,
+        ou prevenir que la commande est prête, et ce n'est pas tout.
     </div>
 
     <div class="cards">
@@ -77,6 +77,16 @@
             <span>Joomla</span>
         </div>
 
+    </div>
+
+    <h1>En cours</h1>
+
+    <h3 style="text-align: center">Réseau social pour les amateurs de musique</h3>
+    <br>
+    <br>
+
+    <div style="text-align: center;">
+        <iframe src="https://player.vimeo.com/video/625593825?h=90ebcb298a&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="330" height="680" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="ShovdanYist"></iframe>
     </div>
 
 </article>
