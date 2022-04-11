@@ -52,7 +52,7 @@
                     <?php require_once 'sections/work.php' ?>
                     <?php require_once 'sections/education.php' ?>
                     <?php require_once 'sections/skills.php' ?>
-                    <?php require_once 'sections/projects.php' ?>
+<!--                    --><?php //require_once 'sections/projects.php' ?>
 
                 </div>
 
